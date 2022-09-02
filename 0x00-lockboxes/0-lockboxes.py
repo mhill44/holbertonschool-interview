@@ -6,7 +6,7 @@ A Method that determines if all of the boxes can be opened or not
 
 
 def canUnlockAll(boxes):
-    
+
     if (len(boxes) == 0):
         return False
     box = list(range(len(boxes)))

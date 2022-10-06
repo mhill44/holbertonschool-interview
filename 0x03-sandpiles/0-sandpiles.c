@@ -1,8 +1,8 @@
 #include "sandpiles.h"
 /**
-* p - Prints a grid.
-* @grid: Grid to be printed.
-* Return: Nothing.
+* p - This prints a grid.
+* @grid: This is the grid to be printed.
+* Return: Returns nothing.
 */
 void p(int grid[3][3])
 {
@@ -21,10 +21,10 @@ void p(int grid[3][3])
 }
 
 /**
-* sandpiles_sum - sandpiles addition.
-* @grid1: grid1.
-* @grid2: grid2.
-* Return: Nothing.
+* sandpiles_sum - sandpiles' addition.
+* @grid1: Is for grid1.
+* @grid2: Is for grid2.
+* Return: Returns nothing.
 */
 void sandpiles_sum(int grid1[3][3], int grid2[3][3])
 {
